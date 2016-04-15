@@ -3,6 +3,7 @@ ChangeLog for Pylint
 
 
 --
+
     * config files with BOM markers can now be read.
 
       Close #864.

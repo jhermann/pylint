@@ -382,7 +382,6 @@ class PyLinterTC(unittest.TestCase):
         else:
             strio = 'io'
         self.linter.config.files_output = True
-        self.linter.config.reports = True
         pylint_strio = 'pylint_%s.txt' % strio
         files = [pylint_strio, 'pylint_global.txt']
         for file in files:
